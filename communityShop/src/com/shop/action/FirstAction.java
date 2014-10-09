@@ -25,7 +25,7 @@ public class FirstAction extends ActionSupport {
     {
         return operand1;
     }
-  
+    
     public void setOperand1(int operand1)
     {
         System.out.println(operand1);

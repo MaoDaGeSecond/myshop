@@ -5,7 +5,7 @@
 
 <struts>
 
-	<package name="struts2" namespace="/" extends="struts-default">
+	<package name="mystruts2" namespace="/" extends="struts-default" >
 		<action name="sum" class="com.shop.action.FirstAction">
 			<result name="positive">/positive.jsp</result>
 			<result name="negative">/negative.jsp</result>
